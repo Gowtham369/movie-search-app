@@ -1,1 +1,1 @@
-# WeatherApp
+# Movie Search App
