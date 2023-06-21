@@ -1,11 +1,10 @@
-import './App.css';
+import React from 'react';
+import Navigation from './Components/Navigation';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-
-      </header>
+    <div className='App'>
+      <Navigation />
     </div>
   );
 }
