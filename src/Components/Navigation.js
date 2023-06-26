@@ -4,20 +4,15 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
-import {Nav, Logo, List, ListItem, Li} from "../Assets/Navigation.js"
+import "../Assets/Navigation.scss"
 function Navigation() {
 	return (
 		<Router>
-			<nav $primary><div className="logo">Movie App</div>
-			<div>
+			<div className="logo">Movie App</div>
+			<nav>
 				<Link to="/">Home</Link>
-			</div>
-			<div>
 				<Link to="/about">About</Link>
-			</div>
-			<div>
 				<Link to="/contact">Contact</Link>
-			</div>
       </nav>
 			<Routes>
 				<Route exact path="/" element={<Home />} />
